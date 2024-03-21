@@ -1,0 +1,172 @@
+
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    margin: 0px;
+    z-index: 3;
+}
+
+.logo {
+    margin: 10px 0px 0px 10px;
+}
+header > p{
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 700px; 
+   }
+   
+   .our-mission {
+    width: 1200px;
+    height: 100%;
+    object-fit: contain; 
+    margin-top: 140px;
+   }
+   
+   .overlay-text {
+    position: absolute;
+    color: seashell;
+    background-color: black;
+    width: 1200px; 
+    text-align: center;
+   }
+   
+   .orerlay-text > h4 {
+    margin: 15px 0px 10px 0px;
+   }
+
+   .orerlay-text > h1 {
+    margin: 10px 0px 0px 0px;
+   }
+
+   
+  .steepin {
+    margin-top: 130px;
+  }
+
+  .foto {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px; 
+    margin: 10px; 
+   }
+   
+   .item img {
+    width: 100%;
+    height: auto; 
+   }
+   
+   .caption {
+    display: block;
+    text-align: center; 
+    margin-top: 10px;
+   }
+
+   .image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    height:500px;
+   }
+   
+   .loc {
+    
+    object-fit: contain; 
+    margin: 430px 40px 0 40px; 
+    
+   }
+   
+   .overlay-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    position: absolute;
+    width: 1200px;
+    flex-wrap: wrap;
+   }
+   
+   .overlay-text2 {
+    color: seashell;
+    background-color: black;
+    width: 300px; 
+    text-align: center;
+    opacity: 1;
+    
+   }
+
+   .Locations {
+    margin: 300px 600px 15px 600px;
+   }
+   
+   footer {
+    position: relative; 
+    z-index: 1000; 
+    background-color: black;
+    text-align: center;
+    width: 100%; 
+    padding: 20px 0; 
+    margin-top: 150px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer > h1 {
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.copy {
+    text-align: left;
+    margin-left: 20px;
+}
+
+   
+
+  
+   
+
+   
+   
+
+
+
+
+
+
