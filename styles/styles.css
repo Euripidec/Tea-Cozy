@@ -13,23 +13,39 @@ body {
 header {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     border-bottom: 1px solid seashell;
     opacity: 0.9;
     position: fixed;
     top: 0;
     width: 100%;
     height: 69px;
-    margin: 0px;
+    margin: auto;
     z-index: 3;
 }
 
+.box {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    text-decoration: underline;
+    
+    
+}
+
+ .left {
+    display: flex;
+    margin-left: auto;
+    
+       }
+
 .logo {
     margin: 10px 0px 0px 10px;
+    height: 50px;
 }
-header > p{
-    text-decoration: underline;
-}
+
+
+
 
 .image-container {
     display: flex;
@@ -42,7 +58,7 @@ header > p{
    .our-mission {
     width: 1200px;
     height: 100%;
-    object-fit: contain; 
+    object-fit: stretch; 
     margin-top: 140px;
    }
    
@@ -52,6 +68,7 @@ header > p{
     background-color: black;
     width: 1200px; 
     text-align: center;
+    
    }
    
    .orerlay-text > h4 {
@@ -64,99 +81,86 @@ header > p{
 
    
   .steepin {
-    margin-top: 130px;
-  }
-
-  .foto {
-    margin: auto;
-    width: 1000px;
     display: flex;
     justify-content: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
     flex-wrap: wrap;
-    gap: 10px;
   }
 
-  .item {
-    vertical-align: top;
+  .overlay2 {
+    margin-left: 500px;
+    margin-right: 500px;
     display: inline-block;
-    text-align: center;
-    width: 300px; 
-    margin: 10px; 
-   }
-   
-   .item img {
-    width: 100%;
-    height: auto; 
-   }
-   
-   .caption {
-    display: block;
-    text-align: center; 
+    }
+
+    .overlay2>h4 {
+        width: 500px;
+    }
+    
+  .box2 {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
     margin-top: 10px;
-   }
+    margin-bottom: 10px;
+  }
+
+  figure {
+    margin: 0px 0px 0px 0px;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+
+  
 
    .image-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin: auto;
+    height: 500px;
+    margin-top: 130px;
     width: 1200px;
-    height:500px;
-   }
-   
-   .loc {
-    
-    object-fit: contain; 
-    margin: 430px 40px 0 40px; 
+    margin-left: auto;
+    margin-right: auto;
     
    }
-   
-   .overlay-text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px; 
+
+   .overlay3 {
     position: absolute;
-    width: 1200px;
-    flex-wrap: wrap;
-   }
-   
-   .overlay-text2 {
-    color: seashell;
-    background-color: black;
-    width: 300px; 
     text-align: center;
-    opacity: 1;
-    
-   }
 
-   .Locations {
-    margin: 300px 600px 15px 600px;
-   }
-   
-   footer {
-    position: relative; 
-    z-index: 1000; 
-    background-color: black;
-    text-align: center;
-    width: 100%; 
-    padding: 20px 0; 
-    margin-top: 150px; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+  }
+
+.box-overlay {
+  width: 300px;
+  margin: 15px 20px 0px 20px;
+  background-color: black;
+  opacity: 1;
+  display: inline-block;
 }
 
-footer > h1 {
-    margin-top: auto;
-    margin-bottom: 50px;
-}
+   
+   
+   .flexbox-container5 {
+    display: block;
+    text-align: center;
+    background-color: black;
+    height: 200px;
+  }
 
-.copy {
-    text-align: left;
+  .flexbox-container6 {
+    display: flex;
+    background-color: black;
+  }
+
+  .flexbox-container6>h5 {
     margin-left: 20px;
-}
-
+  }
    
 
   
